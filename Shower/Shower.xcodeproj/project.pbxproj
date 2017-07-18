@@ -13,7 +13,6 @@
 		4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */; };
 		4D869FB01F1C916D00FDCC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FAE1F1C916D00FDCC3D /* Main.storyboard */; };
 		4D869FB21F1C916D00FDCC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FB11F1C916D00FDCC3D /* Assets.xcassets */; };
-		4D869FB51F1C916D00FDCC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FB31F1C916D00FDCC3D /* LaunchScreen.storyboard */; };
 		4D869FC01F1C916D00FDCC3D /* ShowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FBF1F1C916D00FDCC3D /* ShowerTests.swift */; };
 		4D869FCB1F1C916D00FDCC3D /* ShowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */; };
 		4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */; };
@@ -44,7 +43,6 @@
 		4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4D869FAF1F1C916D00FDCC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D869FB11F1C916D00FDCC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D869FB41F1C916D00FDCC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D869FB61F1C916D00FDCC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D869FBB1F1C916D00FDCC3D /* ShowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FBF1F1C916D00FDCC3D /* ShowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerTests.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
 				4D869FAE1F1C916D00FDCC3D /* Main.storyboard */,
 				4D869FB11F1C916D00FDCC3D /* Assets.xcassets */,
-				4D869FB31F1C916D00FDCC3D /* LaunchScreen.storyboard */,
 				4D869FB61F1C916D00FDCC3D /* Info.plist */,
 				4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */,
 			);
@@ -244,7 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D869FB51F1C916D00FDCC3D /* LaunchScreen.storyboard in Resources */,
 				4D869FB21F1C916D00FDCC3D /* Assets.xcassets in Resources */,
 				4D869FB01F1C916D00FDCC3D /* Main.storyboard in Resources */,
 			);
@@ -317,14 +313,6 @@
 				4D869FAF1F1C916D00FDCC3D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D869FB31F1C916D00FDCC3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D869FB41F1C916D00FDCC3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
