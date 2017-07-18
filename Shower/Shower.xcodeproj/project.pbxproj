@@ -16,6 +16,7 @@
 		4D869FB51F1C916D00FDCC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FB31F1C916D00FDCC3D /* LaunchScreen.storyboard */; };
 		4D869FC01F1C916D00FDCC3D /* ShowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FBF1F1C916D00FDCC3D /* ShowerTests.swift */; };
 		4D869FCB1F1C916D00FDCC3D /* ShowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */; };
+		4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4D869FC61F1C916D00FDCC3D /* ShowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerUITests.swift; sourceTree = "<group>"; };
 		4D869FCC1F1C916D00FDCC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceDisplayViewController.swift; path = Price/PriceDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */,
 				4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */,
 				4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */,
+				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
 				4D869FAE1F1C916D00FDCC3D /* Main.storyboard */,
 				4D869FB11F1C916D00FDCC3D /* Assets.xcassets */,
 				4D869FB31F1C916D00FDCC3D /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 				4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */,
 				4D869FA91F1C916D00FDCC3D /* Shower.xcdatamodeld in Sources */,
 				4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */,
+				4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */,
 				4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
