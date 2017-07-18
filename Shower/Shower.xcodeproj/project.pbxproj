@@ -101,10 +101,10 @@
 		4D869FA41F1C916D00FDCC3D /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				4DBBBE7F1F1DEBA3008487C0 /* Price */,
 				4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */,
 				4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */,
 				4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */,
-				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
 				4D869FAE1F1C916D00FDCC3D /* Main.storyboard */,
 				4D869FB11F1C916D00FDCC3D /* Assets.xcassets */,
 				4D869FB61F1C916D00FDCC3D /* Info.plist */,
@@ -129,6 +129,14 @@
 				4D869FCC1F1C916D00FDCC3D /* Info.plist */,
 			);
 			path = ShowerUITests;
+			sourceTree = "<group>";
+		};
+		4DBBBE7F1F1DEBA3008487C0 /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
+			);
+			name = Price;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
