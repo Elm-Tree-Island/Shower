@@ -149,6 +149,7 @@
 				4D869F9E1F1C916D00FDCC3D /* Sources */,
 				4D869F9F1F1C916D00FDCC3D /* Frameworks */,
 				4D869FA01F1C916D00FDCC3D /* Resources */,
+				4DBBBE801F1DED5F008487C0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -269,6 +270,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DBBBE801F1DED5F008487C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nREV=`git rev-list HEAD | wc -l | awk '{print $1}'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $REV\" \"$INFOPLIST_FILE\"\n# Change the build folder plist file.\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $REV\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D869F9E1F1C916D00FDCC3D /* Sources */ = {
