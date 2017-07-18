@@ -19,6 +19,23 @@ class DetailViewController: UIViewController {
         let tapGR = UITapGestureRecognizer(target: self, action: #selector(self.onBgTapped(sender:)));
         self.view.addGestureRecognizer(tapGR)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.destination {
+        case is PriceDisplayViewController:
+            let inputPriceStr = self.lblInputPrice.text
+            var inputPrice:Double?;
+            
+            if !(inputPriceStr!.isEmpty) {
+                inputPrice = Double(inputPriceStr!)
+            }
+            (segue.destination as! PriceDisplayViewController).priceValue = inputPrice;
+            break;
+        default:
+            
+            break;
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -27,7 +44,7 @@ class DetailViewController: UIViewController {
     
     @IBAction func didOkConfirm(_ sender: Any) {
         // Go to price display screen
-        NSLog("点击OK")
+        NSLog("Click OK")
     }
     
     var detailItem: Event? {

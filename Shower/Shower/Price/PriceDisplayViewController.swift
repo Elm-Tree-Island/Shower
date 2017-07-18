@@ -12,11 +12,15 @@ class PriceDisplayViewController: UIViewController {
 
     @IBOutlet weak var lblPriceValue: UILabel!
     
+    var priceValue:Double? = 0.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let tapGR = UITapGestureRecognizer(target: self, action: #selector(self.onBgTapped(sender:)))
-        self.view.addGestureRecognizer(tapGR)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        lblPriceValue.text = String(format: "￥%.1f", self.priceValue!)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,12 +28,22 @@ class PriceDisplayViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     // Touch the background, hide keyboard
-    func onBgTapped(sender: Any) {
-        NSLog("点击响应");
-        self.dismiss(animated: true) {
-            
-        }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    // Hide the status bar
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+
+    // Force Horizontal Orientation
+    override var shouldAutorotate: Bool {
+        return true
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
     }
 }
