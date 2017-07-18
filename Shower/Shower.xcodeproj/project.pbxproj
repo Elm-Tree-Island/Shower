@@ -526,6 +526,7 @@
 				4D869FD11F1C916D00FDCC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D869FD21F1C916D00FDCC3D /* Build configuration list for PBXNativeTarget "ShowerTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				4D869FD41F1C916D00FDCC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D869FD51F1C916D00FDCC3D /* Build configuration list for PBXNativeTarget "ShowerUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				4D869FD71F1C916D00FDCC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

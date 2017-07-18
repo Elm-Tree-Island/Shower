@@ -16,6 +16,9 @@ class PriceDisplayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -43,7 +46,7 @@ class PriceDisplayViewController: UIViewController {
         return true
     }
     
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .landscape
+    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
+        return UIInterfaceOrientation.landscapeLeft
     }
 }
