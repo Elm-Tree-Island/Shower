@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */; };
-		4D869FA91F1C916D00FDCC3D /* Shower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */; };
 		4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */; };
 		4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */; };
 		4D869FB01F1C916D00FDCC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FAE1F1C916D00FDCC3D /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4D869FA21F1C916D00FDCC3D /* Shower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D869FA81F1C916D00FDCC3D /* Shower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shower.xcdatamodel; sourceTree = "<group>"; };
 		4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4D869FAF1F1C916D00FDCC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				4D869FAE1F1C916D00FDCC3D /* Main.storyboard */,
 				4D869FB11F1C916D00FDCC3D /* Assets.xcassets */,
 				4D869FB61F1C916D00FDCC3D /* Info.plist */,
-				4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */,
 			);
 			path = Shower;
 			sourceTree = "<group>";
@@ -294,7 +291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */,
-				4D869FA91F1C916D00FDCC3D /* Shower.xcdatamodeld in Sources */,
 				4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */,
 				4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */,
 				4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */,
@@ -563,19 +559,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4D869FA81F1C916D00FDCC3D /* Shower.xcdatamodel */,
-			);
-			currentVersion = 4D869FA81F1C916D00FDCC3D /* Shower.xcdatamodel */;
-			path = Shower.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4D869F9A1F1C916D00FDCC3D /* Project object */;
 }

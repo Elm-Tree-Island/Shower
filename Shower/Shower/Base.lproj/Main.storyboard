@@ -110,7 +110,7 @@
                             <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Shower" id="Zdf-7t-Un8">
+                    <navigationItem key="navigationItem" title="Presenter" id="Zdf-7t-Un8">
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="dhL-mT-XjB">
                             <connections>
                                 <segue destination="aBz-Zr-yQP" kind="show" id="Khe-fh-kUn"/>

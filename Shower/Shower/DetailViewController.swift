@@ -47,12 +47,6 @@ class DetailViewController: UIViewController {
         NSLog("Click OK")
     }
     
-    var detailItem: Event? {
-        didSet {
-            
-        }
-    }
-    
     // Touch the background, hide keyboard
     func onBgTapped(sender: Any) {
         self.lblInputPrice.resignFirstResponder()
