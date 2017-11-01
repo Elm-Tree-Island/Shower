@@ -23,7 +23,10 @@ class PriceDisplayViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        lblPriceValue.text = String(format: "￥%.1f", self.priceValue!)
+        
+        if self.priceValue != nil {
+            lblPriceValue.text = String(format: "￥%.1f", self.priceValue!)
+        }
     }
 
     override func didReceiveMemoryWarning() {
