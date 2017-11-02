@@ -15,6 +15,7 @@
 		4D869FC01F1C916D00FDCC3D /* ShowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FBF1F1C916D00FDCC3D /* ShowerTests.swift */; };
 		4D869FCB1F1C916D00FDCC3D /* ShowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */; };
 		4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */; };
+		7FEF7BBA1FAB6667006397EE /* LEDDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF7BB91FAB6667006397EE /* LEDDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerUITests.swift; sourceTree = "<group>"; };
 		4D869FCC1F1C916D00FDCC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceDisplayViewController.swift; path = Price/PriceDisplayViewController.swift; sourceTree = "<group>"; };
+		7FEF7BB91FAB6667006397EE /* LEDDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		4D869FA41F1C916D00FDCC3D /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				7FEF7BB81FAB664F006397EE /* LED */,
 				4DBBBE7F1F1DEBA3008487C0 /* Price */,
 				4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */,
 				4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */,
@@ -135,6 +138,14 @@
 				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
 			);
 			name = Price;
+			sourceTree = "<group>";
+		};
+		7FEF7BB81FAB664F006397EE /* LED */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF7BB91FAB6667006397EE /* LEDDisplayViewController.swift */,
+			);
+			path = LED;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */,
 				4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */,
 				4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */,
+				7FEF7BBA1FAB6667006397EE /* LEDDisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
