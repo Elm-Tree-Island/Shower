@@ -14,8 +14,6 @@ class LEDDisplayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,19 +25,10 @@ class LEDDisplayViewController: UIViewController {
         let strLEDContent = self.tfDisplayContent.text
         if !(strLEDContent!.isEmpty) {
             // Input not empty
+            print("Hello everyone, show the \(strLEDContent!) in LED style")
+            
             // TODO
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
