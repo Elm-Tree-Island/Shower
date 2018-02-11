@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5594631FB043F500F84493 /* StyleConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5594621FB043F500F84493 /* StyleConfigModel.swift */; };
 		4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */; };
 		4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */; };
 		4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D5594621FB043F500F84493 /* StyleConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConfigModel.swift; sourceTree = "<group>"; };
 		4D869FA21F1C916D00FDCC3D /* Shower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5594601FB043DF00F84493 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D5594611FB043DF00F84493 /* Style */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D5594611FB043DF00F84493 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				4D5594621FB043F500F84493 /* StyleConfigModel.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		4D5594641FB0478C00F84493 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4D5594651FB0478C00F84493 /* UI */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4D5594651FB0478C00F84493 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		4D869F991F1C916D00FDCC3D = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +135,8 @@
 		4D869FA41F1C916D00FDCC3D /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				4D5594641FB0478C00F84493 /* Util */,
+				4D5594601FB043DF00F84493 /* Model */,
 				7FEF7BB81FAB664F006397EE /* LED */,
 				4DBBBE7F1F1DEBA3008487C0 /* Price */,
 				4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */,
@@ -304,6 +339,7 @@
 				4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */,
 				4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */,
 				4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */,
+				4D5594631FB043F500F84493 /* StyleConfigModel.swift in Sources */,
 				4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */,
 				7FEF7BBA1FAB6667006397EE /* LEDDisplayViewController.swift in Sources */,
 			);
