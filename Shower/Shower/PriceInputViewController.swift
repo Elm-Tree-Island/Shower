@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class PriceInputViewController: UIViewController {
 
     @IBOutlet weak var lblInputPrice: UITextField!
     @IBOutlet weak var rightTopBtnOK: UIBarButtonItem!

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		4D5594631FB043F500F84493 /* StyleConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5594621FB043F500F84493 /* StyleConfigModel.swift */; };
 		4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */; };
-		4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */; };
-		4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */; };
+		4D869FAB1F1C916D00FDCC3D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAA1F1C916D00FDCC3D /* MainViewController.swift */; };
+		4D869FAD1F1C916D00FDCC3D /* PriceInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAC1F1C916D00FDCC3D /* PriceInputViewController.swift */; };
 		4D869FB01F1C916D00FDCC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FAE1F1C916D00FDCC3D /* Main.storyboard */; };
 		4D869FB21F1C916D00FDCC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FB11F1C916D00FDCC3D /* Assets.xcassets */; };
 		4D869FC01F1C916D00FDCC3D /* ShowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FBF1F1C916D00FDCC3D /* ShowerTests.swift */; };
@@ -40,8 +40,8 @@
 		4D5594621FB043F500F84493 /* StyleConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConfigModel.swift; sourceTree = "<group>"; };
 		4D869FA21F1C916D00FDCC3D /* Shower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4D869FAA1F1C916D00FDCC3D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4D869FAC1F1C916D00FDCC3D /* PriceInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInputViewController.swift; sourceTree = "<group>"; };
 		4D869FAF1F1C916D00FDCC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D869FB11F1C916D00FDCC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D869FB61F1C916D00FDCC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,8 +140,7 @@
 				7FEF7BB81FAB664F006397EE /* LED */,
 				4DBBBE7F1F1DEBA3008487C0 /* Price */,
 				4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */,
-				4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */,
-				4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */,
+				4D869FAA1F1C916D00FDCC3D /* MainViewController.swift */,
 				4D869FAE1F1C916D00FDCC3D /* Main.storyboard */,
 				4D869FB11F1C916D00FDCC3D /* Assets.xcassets */,
 				4D869FB61F1C916D00FDCC3D /* Info.plist */,
@@ -170,6 +169,7 @@
 		4DBBBE7F1F1DEBA3008487C0 /* Price */ = {
 			isa = PBXGroup;
 			children = (
+				4D869FAC1F1C916D00FDCC3D /* PriceInputViewController.swift */,
 				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
 			);
 			name = Price;
@@ -337,10 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */,
-				4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */,
+				4D869FAB1F1C916D00FDCC3D /* MainViewController.swift in Sources */,
 				4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */,
 				4D5594631FB043F500F84493 /* StyleConfigModel.swift in Sources */,
-				4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */,
+				4D869FAD1F1C916D00FDCC3D /* PriceInputViewController.swift in Sources */,
 				7FEF7BBA1FAB6667006397EE /* LEDDisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

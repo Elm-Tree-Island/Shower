@@ -63,12 +63,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgW-eT-h2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="708" y="1014"/>
+            <point key="canvasLocation" x="708" y="955"/>
         </scene>
         <!--Detail-->
         <scene sceneID="yUG-lL-AsK">
             <objects>
-                <viewController title="Detail" id="JEX-9P-axG" customClass="DetailViewController" customModule="Shower" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Detail" id="JEX-9P-axG" customClass="PriceInputViewController" customModule="Shower" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SYR-Wa-9uf"/>
                         <viewControllerLayoutGuide type="bottom" id="GAO-Cl-Wes"/>
@@ -124,7 +124,7 @@
         <!--MasterViewController-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
-                <tableViewController title="MasterViewController" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" customModule="Shower" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="MasterViewController" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MainViewController" customModule="Shower" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" id="r7i-6Z-zg0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,7 +193,7 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Presenter" id="0g0-OT-Rxd">
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="Kek-h7-nbD">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" style="done" id="Kek-h7-nbD">
                             <connections>
                                 <segue destination="aBz-Zr-yQP" kind="show" id="YOu-2l-qbr"/>
                             </connections>

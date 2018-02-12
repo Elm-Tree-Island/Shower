@@ -9,9 +9,9 @@
 import UIKit
 import CoreData
 
-class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate {
+class MainViewController: UITableViewController, NSFetchedResultsControllerDelegate {
 
-    var detailViewController: DetailViewController? = nil
+    var detailViewController: PriceInputViewController? = nil
     var managedObjectContext: NSManagedObjectContext? = nil
 
 
