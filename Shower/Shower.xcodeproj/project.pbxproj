@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5594631FB043F500F84493 /* StyleConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5594621FB043F500F84493 /* StyleConfigModel.swift */; };
 		4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */; };
-		4D869FA91F1C916D00FDCC3D /* Shower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */; };
 		4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */; };
 		4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */; };
 		4D869FB01F1C916D00FDCC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D869FAE1F1C916D00FDCC3D /* Main.storyboard */; };
@@ -16,6 +16,7 @@
 		4D869FC01F1C916D00FDCC3D /* ShowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FBF1F1C916D00FDCC3D /* ShowerTests.swift */; };
 		4D869FCB1F1C916D00FDCC3D /* ShowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */; };
 		4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */; };
+		7FEF7BBA1FAB6667006397EE /* LEDDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF7BB91FAB6667006397EE /* LEDDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D5594621FB043F500F84493 /* StyleConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConfigModel.swift; sourceTree = "<group>"; };
 		4D869FA21F1C916D00FDCC3D /* Shower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D869FA81F1C916D00FDCC3D /* Shower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shower.xcdatamodel; sourceTree = "<group>"; };
 		4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		4D869FAC1F1C916D00FDCC3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4D869FAF1F1C916D00FDCC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		4D869FCA1F1C916D00FDCC3D /* ShowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerUITests.swift; sourceTree = "<group>"; };
 		4D869FCC1F1C916D00FDCC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceDisplayViewController.swift; path = Price/PriceDisplayViewController.swift; sourceTree = "<group>"; };
+		7FEF7BB91FAB6667006397EE /* LEDDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5594601FB043DF00F84493 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D5594611FB043DF00F84493 /* Style */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D5594611FB043DF00F84493 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				4D5594621FB043F500F84493 /* StyleConfigModel.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		4D5594641FB0478C00F84493 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4D5594651FB0478C00F84493 /* UI */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4D5594651FB0478C00F84493 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		4D869F991F1C916D00FDCC3D = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +135,9 @@
 		4D869FA41F1C916D00FDCC3D /* Shower */ = {
 			isa = PBXGroup;
 			children = (
+				4D5594641FB0478C00F84493 /* Util */,
+				4D5594601FB043DF00F84493 /* Model */,
+				7FEF7BB81FAB664F006397EE /* LED */,
 				4DBBBE7F1F1DEBA3008487C0 /* Price */,
 				4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */,
 				4D869FAA1F1C916D00FDCC3D /* MasterViewController.swift */,
@@ -109,7 +145,6 @@
 				4D869FAE1F1C916D00FDCC3D /* Main.storyboard */,
 				4D869FB11F1C916D00FDCC3D /* Assets.xcassets */,
 				4D869FB61F1C916D00FDCC3D /* Info.plist */,
-				4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */,
 			);
 			path = Shower;
 			sourceTree = "<group>";
@@ -138,6 +173,14 @@
 				4D869FD81F1CC15100FDCC3D /* PriceDisplayViewController.swift */,
 			);
 			name = Price;
+			sourceTree = "<group>";
+		};
+		7FEF7BB81FAB664F006397EE /* LED */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF7BB91FAB6667006397EE /* LEDDisplayViewController.swift */,
+			);
+			path = LED;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D869FA61F1C916D00FDCC3D /* AppDelegate.swift in Sources */,
-				4D869FA91F1C916D00FDCC3D /* Shower.xcdatamodeld in Sources */,
 				4D869FAB1F1C916D00FDCC3D /* MasterViewController.swift in Sources */,
 				4D869FD91F1CC15100FDCC3D /* PriceDisplayViewController.swift in Sources */,
+				4D5594631FB043F500F84493 /* StyleConfigModel.swift in Sources */,
 				4D869FAD1F1C916D00FDCC3D /* DetailViewController.swift in Sources */,
+				7FEF7BBA1FAB6667006397EE /* LEDDisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,19 +607,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4D869FA71F1C916D00FDCC3D /* Shower.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4D869FA81F1C916D00FDCC3D /* Shower.xcdatamodel */,
-			);
-			currentVersion = 4D869FA81F1C916D00FDCC3D /* Shower.xcdatamodel */;
-			path = Shower.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4D869F9A1F1C916D00FDCC3D /* Project object */;
 }
