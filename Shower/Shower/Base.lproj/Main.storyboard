@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BI3-Dw-Dsh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BI3-Dw-Dsh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Copperplate.ttc">
+            <string>Copperplate</string>
+        </array>
         <array key="SnellRoundhand.ttc">
             <string>SnellRoundhand-Bold</string>
         </array>
@@ -134,18 +137,18 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCw-Qf-5nD" id="37f-cq-3Eg">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Arm-wq-HPj">
-                                                    <rect key="frame" x="15" y="5" width="39" height="20.5"/>
+                                                    <rect key="frame" x="16" y="5" width="39" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Show good price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bVf-HT-Cp6">
-                                                    <rect key="frame" x="15" y="25.5" width="95.5" height="14.5"/>
+                                                    <rect key="frame" x="16" y="25.5" width="95" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -162,18 +165,18 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vZa-7O-VtD" id="iFr-hD-jMK">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="LED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CIF-qJ-RbV">
-                                                    <rect key="frame" x="15" y="5" width="31" height="20.5"/>
+                                                    <rect key="frame" x="16" y="5" width="31" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Show as LED Style" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hcE-fa-eLs">
-                                                    <rect key="frame" x="15" y="25.5" width="105.5" height="14.5"/>
+                                                    <rect key="frame" x="16" y="25.5" width="105.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -190,7 +193,11 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Presenter" id="0g0-OT-Rxd">
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="Kek-h7-nbD"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="Kek-h7-nbD">
+                            <connections>
+                                <segue destination="aBz-Zr-yQP" kind="show" id="YOu-2l-qbr"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
@@ -209,25 +216,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n82-Ir-Atv">
-                                <rect key="frame" x="16" y="105" width="343" height="212"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_about_me" translatesAutoresizingMaskIntoConstraints="NO" id="mpn-XC-dQi">
+                                <rect key="frame" x="87" y="99" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="DyC-8y-tao"/>
+                                    <constraint firstAttribute="width" constant="200" id="gGp-Kv-gcV"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Mark Chen" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n82-Ir-Atv">
+                                <rect key="frame" x="135.5" y="339" width="103.5" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Author
-Mark Chen
-
-Email
-chenjian3451@126.com</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="chenjian3451@126.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHQ-Ta-YPy">
+                                <rect key="frame" x="101" y="611.5" width="173" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mpn-XC-dQi" firstAttribute="centerX" secondItem="idZ-xp-BlD" secondAttribute="centerX" id="1Sn-3M-ulM"/>
+                            <constraint firstItem="odd-0B-zCa" firstAttribute="top" secondItem="YHQ-Ta-YPy" secondAttribute="bottom" constant="40" id="POW-K3-h2F"/>
+                            <constraint firstItem="mpn-XC-dQi" firstAttribute="top" secondItem="DeP-hv-QFg" secondAttribute="bottom" constant="35" id="Qtt-Vj-N9s"/>
+                            <constraint firstItem="YHQ-Ta-YPy" firstAttribute="centerX" secondItem="n82-Ir-Atv" secondAttribute="centerX" id="Vpz-b6-FKw"/>
+                            <constraint firstItem="n82-Ir-Atv" firstAttribute="top" secondItem="mpn-XC-dQi" secondAttribute="bottom" constant="40" id="WYg-fs-fyO"/>
+                            <constraint firstItem="n82-Ir-Atv" firstAttribute="centerX" secondItem="mpn-XC-dQi" secondAttribute="centerX" id="mJo-b0-ekJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bL2-i4-A2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="708" y="-636"/>
+            <point key="canvasLocation" x="708" y="-636.4317841079461"/>
         </scene>
         <!--Price Display View Controller-->
         <scene sceneID="IRn-eK-98H">
@@ -242,7 +264,7 @@ chenjian3451@126.com</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥84.823" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="60" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0oI-6L-Vhk">
-                                <rect key="frame" x="36" y="10" width="303" height="647"/>
+                                <rect key="frame" x="36" y="30" width="303" height="607"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="120"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -276,4 +298,7 @@ chenjian3451@126.com</string>
             <point key="canvasLocation" x="1475.7121439280361" y="127.2"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_about_me" width="210" height="210"/>
+    </resources>
 </document>
