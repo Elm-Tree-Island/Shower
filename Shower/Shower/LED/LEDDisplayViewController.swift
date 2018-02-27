@@ -16,6 +16,10 @@ class LEDDisplayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // TODO
+        self.lblTestLEDDisplay.text = "123.434"
+        self.lblTestLEDDisplay.font = UIFont(name:"DBLCDTempBlack", size:60) // UIFont(forFamilyName: "DBLCDTempBlack")
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,9 +32,6 @@ class LEDDisplayViewController: UIViewController {
         if !(strLEDContent!.isEmpty) {
             // Input not empty
             print("Hello everyone, show the \(strLEDContent!) in LED style")
-            
-            // TODO
-            self.lblTestLEDDisplay.font = UIFont(name:"DBLCDTempBlack", size:16) // UIFont(forFamilyName: "DBLCDTempBlack")
         }
     }
 
