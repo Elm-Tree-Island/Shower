@@ -12,6 +12,8 @@ class LEDDisplayViewController: UIViewController {
 
     @IBOutlet weak var tfDisplayContent: UITextField!
     
+    @IBOutlet weak var lblTestLEDDisplay: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -28,6 +30,7 @@ class LEDDisplayViewController: UIViewController {
             print("Hello everyone, show the \(strLEDContent!) in LED style")
             
             // TODO
+            self.lblTestLEDDisplay.font = UIFont(name:"DBLCDTempBlack", size:16) // UIFont(forFamilyName: "DBLCDTempBlack")
         }
     }
 

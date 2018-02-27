@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0BB345204419AD00012DE4 /* DB LCD Temp-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DB LCD Temp-Black.ttf"; sourceTree = "<group>"; };
 		4D5594621FB043F500F84493 /* StyleConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConfigModel.swift; sourceTree = "<group>"; };
 		4D869FA21F1C916D00FDCC3D /* Shower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D869FA51F1C916D00FDCC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0BB3462044F8C500012DE4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BB345204419AD00012DE4 /* DB LCD Temp-Black.ttf */,
+			);
+			name = Font;
+			path = Shower;
+			sourceTree = "<group>";
+		};
 		4D5594601FB043DF00F84493 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				4D869FA41F1C916D00FDCC3D /* Shower */,
+				4D0BB3462044F8C500012DE4 /* Font */,
 				4D869FBE1F1C916D00FDCC3D /* ShowerTests */,
 				4D869FC91F1C916D00FDCC3D /* ShowerUITests */,
 				4D869FA31F1C916D00FDCC3D /* Products */,

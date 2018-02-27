@@ -47,8 +47,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="123.48" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8A-Xd-JtV">
+                                <rect key="frame" x="36" y="321" width="303" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="q8A-Xd-JtV" secondAttribute="trailing" constant="20" id="1UL-Sw-3kU"/>
+                            <constraint firstItem="q8A-Xd-JtV" firstAttribute="leading" secondItem="Sri-eX-SIt" secondAttribute="leadingMargin" constant="20" id="2bh-Di-T7u"/>
+                            <constraint firstItem="q8A-Xd-JtV" firstAttribute="centerY" secondItem="Sri-eX-SIt" secondAttribute="centerY" id="qcP-yD-3Fa"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="LED" id="aXy-5U-c6U">
                         <barButtonItem key="rightBarButtonItem" title="OK" id="FO3-be-6KJ">
@@ -58,12 +69,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="lblTestLEDDisplay" destination="q8A-Xd-JtV" id="vgo-fK-DNl"/>
                         <outlet property="tfDisplayContent" destination="kk9-xc-8t2" id="qF6-9w-cGr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgW-eT-h2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="708" y="1014"/>
+            <point key="canvasLocation" x="708" y="1013.3433283358322"/>
         </scene>
         <!--Detail-->
         <scene sceneID="yUG-lL-AsK">
