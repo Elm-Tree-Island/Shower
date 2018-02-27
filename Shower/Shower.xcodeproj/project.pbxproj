@@ -106,21 +106,6 @@
 			path = Style;
 			sourceTree = "<group>";
 		};
-		4D5594641FB0478C00F84493 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				4D5594651FB0478C00F84493 /* UI */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		4D5594651FB0478C00F84493 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
 		4D869F991F1C916D00FDCC3D = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +131,6 @@
 		4D869FA41F1C916D00FDCC3D /* Shower */ = {
 			isa = PBXGroup;
 			children = (
-				4D5594641FB0478C00F84493 /* Util */,
 				4D5594601FB043DF00F84493 /* Model */,
 				7FEF7BB81FAB664F006397EE /* LED */,
 				4DBBBE7F1F1DEBA3008487C0 /* Price */,
