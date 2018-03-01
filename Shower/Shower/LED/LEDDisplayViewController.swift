@@ -17,9 +17,8 @@ class LEDDisplayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // TODO
-        self.lblTestLEDDisplay.text = "123.434"
-        self.lblTestLEDDisplay.font = UIFont(name:"DBLCDTempBlack", size:60) // UIFont(forFamilyName: "DBLCDTempBlack")
+        self.lblTestLEDDisplay.text = ""
+        self.lblTestLEDDisplay.font = UIFont(name:"DBLCDTempBlack", size:60)
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,8 +29,7 @@ class LEDDisplayViewController: UIViewController {
     @IBAction func onOKClicked(_ sender: UIBarButtonItem) {
         let strLEDContent = self.tfDisplayContent.text
         if !(strLEDContent!.isEmpty) {
-            // Input not empty
-            print("Hello everyone, show the \(strLEDContent!) in LED style")
+            self.lblTestLEDDisplay.text = strLEDContent
         }
     }
 
