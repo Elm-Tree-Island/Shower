@@ -208,9 +208,9 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Presenter" id="0g0-OT-Rxd">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" style="done" id="Kek-h7-nbD">
+                        <barButtonItem key="rightBarButtonItem" image="icon_setting" id="Bxd-bu-yW9">
                             <connections>
-                                <segue destination="aBz-Zr-yQP" kind="show" id="YOu-2l-qbr"/>
+                                <segue destination="aBz-Zr-yQP" kind="show" id="izm-wJ-EdP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -315,5 +315,6 @@
     </scenes>
     <resources>
         <image name="icon_about_me" width="210" height="210"/>
+        <image name="icon_setting" width="24" height="24"/>
     </resources>
 </document>
