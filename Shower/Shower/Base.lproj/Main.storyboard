@@ -208,7 +208,7 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Presenter" id="0g0-OT-Rxd">
-                        <barButtonItem key="rightBarButtonItem" image="icon_setting" id="Bxd-bu-yW9">
+                        <barButtonItem key="rightBarButtonItem" image="icon_setting" style="plain" id="Bxd-bu-yW9">
                             <connections>
                                 <segue destination="aBz-Zr-yQP" kind="show" id="izm-wJ-EdP"/>
                             </connections>
